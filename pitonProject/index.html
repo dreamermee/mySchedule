@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+
+</head>
+<body>
+    <div id="container">   
+        <i class="fas fa-angle-left prev" id="prev"></i>
+        <div class="calendar-container">
+          <nav>
+            <ul>
+                <li><a class="monthly">AYLIK</a></li>
+                <li><a class="weekly" >HAFTALIK</a></li>
+                <li><a class="daily" >GÜNLÜK</a></li>
+            </ul>
+          </nav>
+
+          <div id="header">
+              <div id="monthDisplay"></div>
+          </div>
+        
+          <div id="weekdays"></div>
+          
+          <div class="calendar-area"></div>
+
+        </div>
+        <i class="fas fa-angle-right next" id = "next"></i>
+        <p>®mahbube</p>
+
+      </div>
+
+      <div class="modal-container">
+        <div id="modal">
+          <button id="closeButton">X</button>
+          <p class="modalText">GÜN PROGRAMIN</p>
+          <ul class="modalList">
+            <p class="emptyText"></p>
+          </ul>
+          <button id="changeButton">DÜZENLE</button>
+
+        </div>
+
+        <div id="modalBackDrop"></div>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
